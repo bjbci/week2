@@ -5,6 +5,7 @@ header{
     height:256px;
     width:100%;
     background-image: url("https://live.staticflickr.com/2542/4191973147_74f8a56cce_b.jpg");
+    font-family: 'Gill Sans MT';
     color:rgb(49, 78, 121);
     border: 5px solid rgb(89, 155, 199);
 justify-content: space-between;
@@ -28,10 +29,11 @@ main{
      
 }
 aside{
-    flex:0;
+   flex:2;
     background-color: rgb(51, 106, 143);
     color:white;
-    width:40%;
+    font-family: 'Gill Sans MT';
+   
     height:800px;
     border:5px solid rgb(89, 155,199);
     
@@ -49,14 +51,15 @@ aside{
 }
 .pictures{
 flex:6;
-background-color:coral;
-padding:10 ;
+
+background-color:rgb(31, 100, 54);
+padding:5 ;
 display:flex;
 flex-wrap:wrap;
 justify-content: space-evenly;
 align-items: flex-start;
  border: 10px solid yellow;
-color:crimson;
+color: black;
 }
 
 .projects{
@@ -69,22 +72,49 @@ color:crimson;
  
 
 }
-image{
-    display:flex;
-    flex:0 0 200px;
+ .projects image{
+    color:white;
+}
+img{
+    border-radius: 30px;
    
 }
+.content {
+    
+        width: 80%;
+        display: inline-block;
+        margin-right: 20px;
+    }
 
-h3 absolute{
+#budda {
+    width:474px ;
+    height: auto ;
+    text-align:center;
+}
+#computer {
+    width:474px ;
+    height: auto ;
+    text-align:center;
+}
+#engine{
+    width:474px;
+    height:315px;
+    text-align:center;
+}
+
+
+.absolute{
     position:absolute;
 
     top:50px;
     left:50px;
 }
+
 footer{
     display:flex;
     flex-wrap: wrap;
     text-align: right;
+    font-family: 'Gill Sans MT';
 
     background-color: rgb(89, 155, 199);
     width:100%;
@@ -98,19 +128,86 @@ footer a{
     
     padding: 30px;
 }
-@media(max-width:576px){
-
-    .card{
+@media(max-width:992px){
+    aside{
+        flex:1;
         width:100%;
+        background-color: brown;
+    }
+    div.pictures{
+        width:100%;
+        background-color: bisque;
     }
 }
-@media (max-width: 768px){
-    .card{
-        width: 60%;
+.content{
+    display:block;
+    
+}
+#job-1{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 150px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+#job-2{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
     }
-    @media(max-width:992px){
-        .card{
-            width:30%;
+    
+    #job-3{
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 150px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;}
+
+        #job-4{
+            margin-bottom: 20px;
+            padding: 50px;
+            height: 150px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #0072bb;
+            color: #ffffff;}
+
+            #job-5{
+                margin-bottom: 20px;
+                padding: 50px;
+                height: 150px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                background-color: #0072bb;
+                color: #ffffff;}
+
+                #job-6{
+                    margin-bottom: 20px;
+                    padding: 50px;
+                    height: 150px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    background-color: #0072bb;
+                    color: #ffffff;}
+
+
+@media (max-width: 768px){
+    aside{
+        width:50%;
+    }
+    div.pictures{
+        width: 50%;
+    }
+    @media(max-width:600px){
+        aside{
+            width:100%;
+        }
+        div.pictures{
+            width:100%;
+            background-color: aquamarine;
         }
     }
 }
