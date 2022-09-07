@@ -13,7 +13,8 @@ padding: 0px;
 }
     
 .header_photo{
-    
+    margin:20px 60px;
+    padding:20px;
     width:200px;
     min-width: 200px;
     height:300px;
@@ -51,63 +52,118 @@ aside{
 }
 .pictures{
 flex:6;
-
-background-color:rgb(31, 100, 54);
-padding:5 ;
+background-color:rgb(28, 196, 226);
+padding:0 ;
 display:flex;
 flex-wrap:wrap;
-justify-content: space-evenly;
+justify-content:space-around;
 align-items: flex-start;
- border: 10px solid yellow;
+border: 10px solid rgb(82, 18, 73);
 color: black;
+width: 80%;
+height: auto;
+margin: 10px;
 }
 
-.projects{
-  flex: 0 0 300px;
-  padding: 10px;
-  
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 30px;
- 
-
-}
- .projects image{
+  .absolute-1{
+    position:absolute;
+    bottom: 100px;
     color:white;
+    font-size: 30px; 
+  }
+  .absolute-2{
+    position:absolute;
+    bottom: 100px;
+    color:white;
+    font-size: 30px; 
+  }
+  .absolute-3{
+    position:absolute;
+    bottom: -150px;
+    color:black;
+    font-size: 30px; 
+  }
+  .absolute-4{
+    position:absolute;
+    bottom: -150px;
+    color:white;
+    font-size: 30px; 
+  }
+  .absolute-5{
+    position:absolute;
+    bottom: -500px;
+    color:white;
+    font-size: 30px; 
+  }
+  .absolute-6{
+    position:absolute;
+    bottom: -500px;
+    color:white;
+    font-size: 30px; 
+  }
+
+.budda {
+   margin:10px;
+   border-radius: 5px;
+    width:475px ;
+    height: 315px ;
+    text-align:left;
+    background-image: url("https://images.freeimages.com/images/previews/9bd/buddha-4-1142506.jpg");
+    position: relative;
+    text-decoration: none;
+    
 }
-img{
-    border-radius: 30px;
+
+.computer {
+    margin:10px;
+    border-radius: 5px;
+    width:475px ;
+    height: 315px ;
+    text-align:center;
+    background-image: url("https://th.bing.com/th/id/R.74721913176d327d462780db84963fdc?rik=0v9hFKh9cOkwdQ&riu=http%3a%2f%2fwww.kltpr.com%2fassets%2fimages%2fgallery%2fSecondLevel%2fComputerStations1.jpg&ehk=ZgIBxtkG20VZ4rM3rNawvxkRGtc5tqWIhIJ8nq90itQ%3d&risl=&pid=ImgRaw&r=0" );
    
 }
-.content {
-    
-        width: 80%;
-        display: inline-block;
-        margin-right: 20px;
-    }
-
-#budda {
-    width:474px ;
-    height: auto ;
-    text-align:center;
-}
-#computer {
-    width:474px ;
-    height: auto ;
-    text-align:center;
-}
-#engine{
-    width:474px;
+.engine{
+    margin:10px;
+    border-radius: 5px;
+    width:475px;
     height:315px;
     text-align:center;
+    background-image: url("https://www.eastwood.com/media/catalog/product/cache/f6a6ad9633d4f4199f5a61178e3b058e/p/6/p63240_2.jpg");
+        
+}
+.computer-code{
+    border-radius: 5px;
+    margin:10px;
+    width:475px;
+    height:315px;
+    text-align:center;
+    background-image: url("https://th.bing.com/th/id/OIP.qVkus9uWcj0SAg1f_RnCYQHaE6?pid=ImgDet&rs=1");
 }
 
+.round-code{
+    border-radius: 5px;
+    margin:10px;
+    width:475px;
+    height:315px;
+    text-align:center;
+    background-image: url("https://th.bing.com/th/id/OIP.By_LE4tPv5OqsvH1s3QZWAHaEK?pid=ImgDet&rs=1");
+}
 
-.absolute{
-    position:absolute;
+.mt-hood{
+    border-radius: 5px;
+    margin:10px;
+    width:475px;
+    height:315px;
+    text-align:center;
+    background-image: url("https://th.bing.com/th/id/OIP.8zr2o2GGiBA2G9d5hpQukAHaE6?pid=ImgDet&rs=1");
+}
 
-    top:50px;
-    left:50px;
+.content {
+    
+    width: 80%;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 footer{
@@ -128,17 +184,7 @@ footer a{
     
     padding: 30px;
 }
-@media(max-width:992px){
-    aside{
-        flex:1;
-        width:100%;
-        background-color: brown;
-    }
-    div.pictures{
-        width:100%;
-        background-color: bisque;
-    }
-}
+
 .content{
     display:block;
     
@@ -148,7 +194,7 @@ footer a{
     padding: 50px;
     height: 150px;
     
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:  'Gill Sans MT';
     background-color: #0072bb;
     color: #ffffff;
 }
@@ -156,7 +202,7 @@ footer a{
     margin-bottom: 20px;
     padding: 50px;
     height: 150px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans MT';
     background-color: #0072bb;
     color: #ffffff;
     }
@@ -165,7 +211,7 @@ footer a{
         margin-bottom: 20px;
         padding: 50px;
         height: 150px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Gill Sans MT';
         background-color: #0072bb;
         color: #ffffff;}
 
@@ -173,7 +219,7 @@ footer a{
             margin-bottom: 20px;
             padding: 50px;
             height: 150px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: 'Gill Sans MT';
             background-color: #0072bb;
             color: #ffffff;}
 
@@ -181,7 +227,7 @@ footer a{
                 margin-bottom: 20px;
                 padding: 50px;
                 height: 150px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family:  'Gill Sans MT';
                 background-color: #0072bb;
                 color: #ffffff;}
 
@@ -189,25 +235,37 @@ footer a{
                     margin-bottom: 20px;
                     padding: 50px;
                     height: 150px;
-                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-family:'Gill Sans MT';
                     background-color: #0072bb;
                     color: #ffffff;}
 
 
+
+    
+        
+    
+
+@media(max-width:992px){
+    aside{
+        flex:1;
+        width:100%;
+        background-color: brown;
+    }
+    .header-photo{
+        width:80%;
+        height:auto;
+    }
+    div.pictures{
+        width:100%;
+        background-color: bisque;
+    }
+}
 @media (max-width: 768px){
     aside{
         width:50%;
+        background-color: #ffffff;
     }
     div.pictures{
         width: 50%;
+        background-color: aqua;
     }
-    @media(max-width:600px){
-        aside{
-            width:100%;
-        }
-        div.pictures{
-            width:100%;
-            background-color: aquamarine;
-        }
-    }
-}
