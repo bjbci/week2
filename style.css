@@ -1,166 +1,165 @@
 header{
    display:flex;
    flex-wrap: wrap;
-   text-align: right;
-    height:256px;
-    width:100%;
-    background-image: url("https://live.staticflickr.com/2542/4191973147_74f8a56cce_b.jpg");
+   text-align: center;
+    height: 400px;
+    width:1564px;
+    object-fit:contain;
+   /* background-image: url("https://live.staticflickr.com/2542/4191973147_74f8a56cce_b.jpg");  */
     font-family: 'Gill Sans MT';
     color:rgb(49, 78, 121);
     border: 5px solid rgb(89, 155, 199);
-justify-content: space-between;
-padding: 0px;
+    padding: 0px;
 }
     
-.header_photo{
-    margin:20px 60px;
+nav a{
+  line-height: 570px;;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: right;
+    font-family: 'Gill Sans MT';
+    padding:30px;
+    
+    width:100%;
+    height:150px;
+    font-size: 50px;
+    color:rgb(191, 216, 123);
+    justify-content:center;
+}
+
+.contacts{    
+    display:flex;    
+    line-height: 155px;
+    font-size: 60px;
+}
+
+/*.contacts a{
+    padding: 10px;    
+}*/
+
+main{    
+    border:5px solid black;
+    display:flex;
+    flex-wrap: wrap;    
+}
+
+aside{    
+    background-color: rgb(51, 106, 143);
+    color:white;
+    font-family: 'Gill Sans MT';
+   width:300px;
+    height:800px;
+    border:5px solid rgb(89, 155,199);    
+}
+
+.bio_photo{
+    margin:10px 25px;
     padding:20px;
-    width:200px;
     min-width: 200px;
     height:300px;
     min-height: 300px;
     border:3px solid rgb(230, 159, 53);
 }
-main{
-    
-    width:100%;
-    border:5px solid black;
+
+section.pictures {
     display:flex;
-    flex-wrap: wrap;
-     
-}
-aside{
-   flex:2;
-    background-color: rgb(51, 106, 143);
-    color:white;
-    font-family: 'Gill Sans MT';
-   
-    height:800px;
-    border:5px solid rgb(89, 155,199);
-    
-}
-.contacts{
-    
-    display:flex;
-    
-    line-height: 155px;
-    font-size: 60px;
-}
-.contacts a{
-    padding: 10px;
-    
-}
-.pictures{
-flex:6;
-background-color:rgb(28, 196, 226);
-padding:0 ;
-display:flex;
-flex-wrap:wrap;
-justify-content:space-around;
-align-items: flex-start;
-border: 10px solid rgb(82, 18, 73);
-color: black;
-width: 80%;
-height: auto;
-margin: 10px;
+    flex-wrap:wrap;
+    flex:6 auto;
+    width:1190px;
+    height:auto;
+    background-color:rgb(28, 196, 226);
+    padding:0 ;    
+    justify-content:space-evenly;
+    border: 10px solid rgb(82, 18, 73);
+    color: black;   
 }
 
-  .absolute-1{
-    position:absolute;
-    bottom: 100px;
+  .absolute-1 {
     color:white;
     font-size: 30px; 
+    width:31%;
+    height:auto;
+    margin: 1%;
   }
+
   .absolute-2{
-    position:absolute;
-    bottom: 100px;
     color:white;
     font-size: 30px; 
+    width:31%;
+    height:auto;
+    margin: 1%;
   }
+
   .absolute-3{
-    position:absolute;
-    bottom: -150px;
     color:black;
     font-size: 30px; 
+    width:31%;
+    height:auto;
+    margin: 1%;
   }
+
   .absolute-4{
-    position:absolute;
-    bottom: -150px;
     color:white;
     font-size: 30px; 
+    width:31%;
+    height:auto;
+    margin: 1%;
   }
+
   .absolute-5{
-    position:absolute;
-    bottom: -500px;
     color:white;
     font-size: 30px; 
+    width:31%;
+    height:auto;
+    margin: 1%;
   }
+
   .absolute-6{
-    position:absolute;
-    bottom: -500px;
     color:white;
     font-size: 30px; 
-  }
+    width:31%;
+    height:auto;
+    margin: 1%;
+}
 
-.budda {
-   margin:10px;
-   border-radius: 5px;
-    width:475px ;
-    height: 315px ;
-    text-align:left;
+.job1Img {
     background-image: url("https://images.freeimages.com/images/previews/9bd/buddha-4-1142506.jpg");
-    position: relative;
-    text-decoration: none;
-    
+    width: 270px;
+    height: 350px ;
 }
 
-.computer {
-    margin:10px;
-    border-radius: 5px;
-    width:475px ;
-    height: 315px ;
-    text-align:center;
-    background-image: url("https://th.bing.com/th/id/R.74721913176d327d462780db84963fdc?rik=0v9hFKh9cOkwdQ&riu=http%3a%2f%2fwww.kltpr.com%2fassets%2fimages%2fgallery%2fSecondLevel%2fComputerStations1.jpg&ehk=ZgIBxtkG20VZ4rM3rNawvxkRGtc5tqWIhIJ8nq90itQ%3d&risl=&pid=ImgRaw&r=0" );
-   
+.job2Img {
+    background-image: url("https://th.bing.com/th/id/R.74721913176d327d462780db84963fdc?rik=0v9hFKh9cOkwdQ&riu=http%3a%2f%2fwww.kltpr.com%2fassets%2fimages%2fgallery%2fSecondLevel%2fComputerStations1.jpg&ehk=ZgIBxtkG20VZ4rM3rNawvxkRGtc5tqWIhIJ8nq90itQ%3d&risl=&pid=ImgRaw&r=0");
+    width: 270px;
+    height: 350px ;
 }
-.engine{
-    margin:10px;
-    border-radius: 5px;
-    width:475px;
-    height:315px;
-    text-align:center;
+
+.job3Img {
     background-image: url("https://www.eastwood.com/media/catalog/product/cache/f6a6ad9633d4f4199f5a61178e3b058e/p/6/p63240_2.jpg");
-        
+    width: 270px;
+    height: 350px ;
 }
-.computer-code{
-    border-radius: 5px;
-    margin:10px;
-    width:475px;
-    height:315px;
-    text-align:center;
+
+.job4Img {
     background-image: url("https://th.bing.com/th/id/OIP.qVkus9uWcj0SAg1f_RnCYQHaE6?pid=ImgDet&rs=1");
+    width: 270px;
+    height: 350px ;
 }
 
-.round-code{
-    border-radius: 5px;
-    margin:10px;
-    width:475px;
-    height:315px;
-    text-align:center;
+.job5Img {
     background-image: url("https://th.bing.com/th/id/OIP.By_LE4tPv5OqsvH1s3QZWAHaEK?pid=ImgDet&rs=1");
+    width: 270px;
+    height: 350px ;
 }
 
-.mt-hood{
-    border-radius: 5px;
-    margin:10px;
-    width:475px;
-    height:315px;
-    text-align:center;
+.job6Img {
     background-image: url("https://th.bing.com/th/id/OIP.8zr2o2GGiBA2G9d5hpQukAHaE6?pid=ImgDet&rs=1");
+    width: 270px;
+    height: 350px ;
 }
 
 .content {
-    
+    display:block;
     width: 80%;
     display: inline-block;
     margin-right: 20px;
@@ -171,37 +170,33 @@ footer{
     flex-wrap: wrap;
     text-align: right;
     font-family: 'Gill Sans MT';
-
     background-color: rgb(89, 155, 199);
     width:100%;
     height:150px;
     font-size: 50px;
     color:black;
-    justify-content:center;
- 
-}
-footer a{
-    
-    padding: 30px;
+    justify-content:center; 
 }
 
-.content{
-    display:block;
-    
-}
+footer a{    
+    padding: 30px;
+}    
+
 #job-1{
     margin-bottom: 20px;
     padding: 50px;
     height: 150px;
-    
+    /*width:300px;*/
     font-family:  'Gill Sans MT';
     background-color: #0072bb;
     color: #ffffff;
 }
+
 #job-2{
     margin-bottom: 20px;
     padding: 50px;
     height: 150px;
+    /*width:300px;*/
     font-family: 'Gill Sans MT';
     background-color: #0072bb;
     color: #ffffff;
@@ -211,9 +206,11 @@ footer a{
         margin-bottom: 20px;
         padding: 50px;
         height: 150px;
+        /*width:300px;*/
         font-family: 'Gill Sans MT';
         background-color: #0072bb;
-        color: #ffffff;}
+        color: #ffffff;
+    }
 
         #job-4{
             margin-bottom: 20px;
@@ -221,7 +218,8 @@ footer a{
             height: 150px;
             font-family: 'Gill Sans MT';
             background-color: #0072bb;
-            color: #ffffff;}
+            color: #ffffff;
+        }
 
             #job-5{
                 margin-bottom: 20px;
@@ -229,7 +227,8 @@ footer a{
                 height: 150px;
                 font-family:  'Gill Sans MT';
                 background-color: #0072bb;
-                color: #ffffff;}
+                color: #ffffff;
+            }
 
                 #job-6{
                     margin-bottom: 20px;
@@ -237,35 +236,114 @@ footer a{
                     height: 150px;
                     font-family:'Gill Sans MT';
                     background-color: #0072bb;
-                    color: #ffffff;}
-
-
-
-    
-        
+                    color: #ffffff;
+                }         
     
 
-@media(max-width:992px){
-    aside{
-        flex:1;
-        width:100%;
+@media(max-width:1560px){
+    aside{       
+        width:30%;
         background-color: brown;
     }
-    .header-photo{
-        width:80%;
+
+    .bio-photo{
+        flex:1;
+        width:350px;
         height:auto;
     }
-    div.pictures{
-        width:100%;
+
+    a{
+        width:80%;
+        height:auto;        
+    }
+
+    section.pictures{         
+        width:60%;
         background-color: bisque;
     }
+
+    .bigbox{
+        
+        flex:6 1 0;
+        width:30%;
+        height: 25%;
+    }
 }
-@media (max-width: 768px){
+@media(max-width:1310px){
+    aside{       
+        width:100%;
+        height:auto;
+        background-color: rgb(189, 101, 101);
+    }
+    .bio-photo{
+        flex:1;
+        width:350px;
+        height:auto;
+    }
+    
+    section.pictures{         
+        width:100%;
+        height:auto;
+        background-color: rgb(109, 83, 52);
+    }
+   
+}
+@media (max-width: 920px){
     aside{
-        width:50%;
-        background-color: #ffffff;
+        width:100%;
+        height:auto;
+        background-color: rgb(149, 194, 65);
+        color:black;
     }
-    div.pictures{
-        width: 50%;
-        background-color: aqua;
+    section.pictures{
+        
+        width:100%;
+        background-color: rgb(32, 73, 73);
     }
+}
+    
+    @media(max-width:600px){
+        aside{
+           
+            width:100%;
+            background-color: rgb(85, 42, 165);
+        }
+        .bio-photo{
+            flex:1;
+            width:350px;
+            height:auto;
+        }
+       /* a{
+            width:80%;
+            height:auto;            
+        }*/
+        
+        div .job1Img{
+            width:450px;
+            height:346px;
+        }
+        div .job2Img{
+            width:450px;
+            height:346px;
+        }
+        div .job3Img{
+            width:450px;
+            height:346px;
+        }
+        div .job4Img{
+            width:450px;
+            height:346px;
+        }
+        div .job5Img{
+            width:450px;
+            height:346px;
+        }
+        div .job6Img{
+            width:450px;
+            height:346px;
+        }
+        section.pictures{         
+            height:auto;
+            background-color: rgb(204, 73, 150);
+}
+}
